@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome" required="true">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email" placeholder="E-mail" required="true">
+        </div>
+        <div>
+            <label for="data_nascimento">Data de Nascimento:</label>
+            <input type="date" id="data_nascimento" name="data_nascimento">
+        </div>
+        <div>
+            <label for="fumante">Fumante:</label>
+            <input type="radio" name="fumante" id="fumante"> Sim
+            <input type="radio" name="fumante" id="fumante"> Não 
+        </div>
+        <div>
+            <label for="lugares">Lugares de interesse:</label>
+            <input type="checkbox" name="lugares" id="lugares"><label for="">Rio de Janeiro</label>
+            <input type="checkbox" name="lugares" id="lugares"><label for="">Serra Gaúcha</label>
+            <input type="checkbox" name="lugares" id="lugares"><label for="">Jericoacara</label>
+            <input type="checkbox" name="lugares" id="lugares"><label for="">Fernando de Noronha</label>
+            <input type="checkbox" name="lugares" id="lugares"><label for="">Maragogi</label>
+            <input type="checkbox" name="lugares" id="lugares"><label for="">Foz do Iguaçu</label>
+        </div>
+        <div>
+            <label for="cidade">Cidade:</label>
+            <select name="cidade" id="cidade">
+                <option value="">Rio de Janeiro</option>
+                <option value="">Duque de Caxias</option>
+                <option value="">Angra dos Reis</option>
+                <option value="">Arraial do Cabo</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Lugares de interesse:</label>
+            <select name="" id="" multiple>
+                <option value="">Rio de Janeiro</option>
+                <option value="">Serra Gaúcha</option>
+                <option value="">Jericoacara</option>
+                <option value="">Fernando de Noronha</option>
+                <option value="">Maragogi</option>
+                <option value="">Foz do Iguaçu</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Digite a sua mensagem"></textarea>
+        </div>
+        <div>
+            <input type="password" name="senha" id="senha" required="true">
+        </div>
+        <div>
+            <input type="number" name="numero_pessoas" id="numero_pessoas" placeholder="Número de Pessoas">
+        </div>
+        <div>
+            <input type="tel" name="telefone" id="telefone" placeholder="Telefone">
+        </div>
+        <div>
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+            <input type="reset" name="limpar" id="limpar" value="Limparr">
+        </div>
+    </form>
+    <div>
+        <input type="text" name="" id="" placeholder="Digite qualquer coisa">
+    </div>
+    <a href="index.html">Voltar</a>
+</body>
+</html>
