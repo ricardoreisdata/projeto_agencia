@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body
     <form action="" method="post">
         <div>
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="Nome" required="true">
+            <input type="text" id="nome" name="nome" placeholder="Nome" required="true" class="campo">
         </div>
         <div>
             <label for="email">E-mail:</label>
-            <input type="text" id="email" name="email" placeholder="E-mail" required="true">
+            <input type="text" id="email" name="email" placeholder="E-mail" required="true" class="campo">
         </div>
         <div>
             <label for="data_nascimento">Data de Nascimento:</label>
@@ -22,7 +23,8 @@
         <div>
             <label for="fumante">Fumante:</label>
             <input type="radio" name="fumante" id="fumante" value="S"> Sim
-            <input type="radio" name="fumante" id="fumante" value="N"> Não 
+            <input type="radio" name="fumante" id="fumante" value="N"> Não
+            <input type="radio" name="fumante" id="fumante" value="D"> De vez em quando 
         </div>
         <div>
             <label for="lugares">Lugares de interesse:</label>
@@ -36,10 +38,11 @@
         <div>
             <label for="cidade">Cidade:</label>
             <select name="cidade" id="cidade">
-                <option value="">Rio de Janeiro</option>
-                <option value="">Duque de Caxias</option>
-                <option value="">Angra dos Reis</option>
-                <option value="">Arraial do Cabo</option>
+                <option value="0">Selecione uma cidade</option>
+                <option value="1">Rio de Janeiro</option>
+                <option value="2">Duque de Caxias</option>
+                <option value="3">Angra dos Reis</option>
+                <option value="4">Arraial do Cabo</option>
             </select>
         </div>
         <div>
@@ -54,7 +57,7 @@
             </select>
         </div>
         <div>
-            <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Digite a sua mensagem"></textarea>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Digite a sua mensagem" class="campo"></textarea>
         </div>
         <div>
             <input type="password" name="senha" id="senha" required="true">
