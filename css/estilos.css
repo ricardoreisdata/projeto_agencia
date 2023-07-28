@@ -1,9 +1,14 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+}
+
 p{
     text-align: center;
     text-justify: auto;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 14px;
 }
 h1{
     color: green;
@@ -18,9 +23,37 @@ img{
     height: 50px;
     width: 120px;
 }
+
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color:red;
+}
+
+nav{
+    text-align: center;
+}
+
 #em_contrucao{
     height: 200px;
     width: 200px;
+}
+#titulo{
+    color: #ff0000;
+    font-size: 30px;
 }
 div{
     margin-left: 10pt;
@@ -31,4 +64,21 @@ input{
 }
 .campo{
     width: 500px;
+}
+
+.coluna{
+    width: 50%;
+    float: left;
+    box-sizing:content-box;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+thead{
+    font-weight: bold;
 }
