@@ -13,6 +13,7 @@ p{
 h1{
     color: green;
     font-size: 25px;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
 }
 h2{
     text-align: right;
@@ -20,8 +21,8 @@ h2{
     font-size: 20px;
 }
 img{
-    height: 50px;
-    width: 120px;
+    height: 100px;
+    width: 200px;
 }
 
 a{
@@ -58,6 +59,7 @@ nav{
 div{
     margin-left: 10pt;
     padding-top: 5px;
+    text-align: center;
 }
 input{
     width: 100px;
@@ -81,4 +83,8 @@ input{
 
 thead{
     font-weight: bold;
+}
+
+.contanier{
+    background-color: #00ff0034 !important;
 }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agência</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -13,15 +14,25 @@
         <a href="interno/index.html">Área administrativa</a>
         <a href="pacotes.html">Pacotes</a>
     </nav>
-    <h1>Agência Explorer Tur</h1>
-    <p>Seja bem vindo à nossa agência</p>
-    <p>A sua viagem começa aqui</p>
-    <p>Não vendemos passagens, vendemos sonhos!</p>
-    <img src="imagens/jp.jpg" alt="">
-    <img src="imagens/foz.jpg" alt="">
+
+    <div class="container">
+        <h1>Agência Explorer Tur</h1>
+        <p>Seja bem vindo à nossa agência</p>
+        <p>A sua viagem começa aqui</p>
+        <p>Não vendemos passagens, vendemos sonhos!</p>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="imagens/jp.jpg" alt="">
+            </div>
+            <div class="col-md-5">
+                <img src="imagens/foz.jpg" alt="">
+            </div>
+        </div>
         <div>
-        <a href="https://embratur.com.br/" target="_blank">Site da Embratur</a>
-        <a href="mailto: ricardoreis.data@gmail.com">Envie o email</a>
+            <a href="https://embratur.com.br/" target="_blank">Site da Embratur</a>
+            <a href="mailto: ricardoreis.data@gmail.com" class="btn btn-primary">Envie o email</a>
+        </div>
     </div>        
 </body>
+<script src="js/bootstrap.js"></script>
 </html>

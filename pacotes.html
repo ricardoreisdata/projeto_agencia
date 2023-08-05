@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pacotes</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
     <form action="exibir_pacote.html" method="post">
-        <table>
+        <table class="table table-dark table-striped">
             <thead>
                 <tr>
                     <td>Destino</td>
@@ -22,23 +23,24 @@
                     <td>Foz do Iguaçu</td>
                     <td>21/07/2023</td>
                     <td>4 dias</td>
-                    <td><input type="submit" name="exibir_detalhes" id="exibir_detalhes" value="Exibir Detalhes"></td>
+                    <td><input type="submit" name="exibir_detalhes" id="exibir_detalhes" value="Exibir Detalhes" class="btn btn-primary"></td>
                 </tr>
                 <tr>    
                     <td>Jericoacara</td>
                     <td>01/08/2023</td>
                     <td>7 dias</td>
-                    <td><input type="submit" name="exibir_detalhes" id="exibir_detalhes" value="Exibir Detalhes"></td>
+                    <td><input type="submit" name="exibir_detalhes" id="exibir_detalhes" value="Exibir Detalhes" class="btn btn-secondary"></td>
                 </tr>
                 <tr>    
                     <td>Serra Gaúcha</td>
                     <td>30/07/2023</td>
                     <td>2 dias</td>
-                    <td><input type="submit" name="exibir_detalhes" id="exibir_detalhes" value="Exibir Detalhes"></td>
+                    <td><input type="submit" name="exibir_detalhes" id="exibir_detalhes" value="Exibir Detalhes" class="btn btn-danger"></td>
                 </tr>
             </tbody>
         </table>
     </form>
     <a href="index.html">Voltar</a>    
 </body>
+<script src="js/bootstrap.js"></script>
 </html>
