@@ -59,7 +59,7 @@ nav{
 div{
     margin-left: 10pt;
     padding-top: 5px;
-    text-align: center;
+    /*text-align: center;*/
 }
 input{
     width: 100px;
